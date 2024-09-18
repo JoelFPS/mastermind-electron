@@ -1,0 +1,21 @@
+{
+  "name": "aplikacja-electron",
+  "version": "1.0.0",
+  "description": "Pierwsza aplikacja",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn install && electron ./",
+    "dist": "electron-builder --publish always"
+  },
+  "author": "ociepson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.3",
+    "electron-packager": "^15.5.1",
+    "electron-winstaller": "^5.0.0"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
